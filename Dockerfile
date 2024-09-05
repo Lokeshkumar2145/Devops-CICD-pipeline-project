@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 # webhook
-FROM node:12-alpine
+FROM node:16-alpine
 RUN apk add --no-cache python2 g++ make
 WORKDIR /app
 COPY . .
